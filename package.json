@@ -1,7 +1,24 @@
 {
 	"name": "tt-package-demo",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A demo package for Total TypeScript",
+	"keywords": [
+		"demo",
+		"typescript"
+	],
+	"homepage": "https://github.com/sammyl720/tt-package-demo",
+	"bugs": {
+		"url": "https://github.com/sammyl720/tt-package-demo/issues"
+	},
+	"author": "Shmuel Leider",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sammyl720/tt-package-demo.git"
+	},
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "vitest run",
@@ -12,12 +29,6 @@
 		"check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
 		"dev": "vitest"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"files": [
-		"dist"
-	],
 	"type": "module",
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.16.4",
