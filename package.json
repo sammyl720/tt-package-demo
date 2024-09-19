@@ -7,7 +7,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "tsc",
 		"ci": "npm run build",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"check-format": "prettier --check ."
 	},
 	"keywords": [],
 	"author": "",
